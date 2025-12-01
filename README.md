@@ -10,7 +10,7 @@ This is a Node.js , Express.js and Typescript backend for EOD (End of the day) A
 - [Get Started](#get-started)
 - [Author](#author)
 ### Features
-
+- Get all EodUpdates : To display the all Eod updates to the user.
 ### Technologies Used
 - Typescript
 - Node.Js
