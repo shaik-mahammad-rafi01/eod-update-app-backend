@@ -1,7 +1,7 @@
 import  { initializeApp,cert } from 'firebase-admin/app';
 import { getFirestore } from 'firebase-admin/firestore';
 import fs from 'fs';
-const serviceAccount =JSON.parse(fs.readFileSync('eod-update-app-backend-db.json').toString());
+const serviceAccount =JSON.parse(fs.readFileSync('backend-db.json').toString());
 initializeApp({
   credential: cert(serviceAccount)
 });
